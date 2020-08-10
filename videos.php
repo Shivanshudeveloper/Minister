@@ -32,7 +32,7 @@
 
       <?php
             include './src/dbh.php';
-            $sql = "SELECT * FROM videos ORDER BY date(date)DESC;";
+            $sql = "SELECT * FROM videos WHERE seton = 'Video Gallary' OR seton = 'Both' ORDER BY date(date)DESC;";
             $result = mysqli_query($conn, $sql);
             while ($row = mysqli_fetch_assoc($result)) {
                 echo '

@@ -5,8 +5,6 @@
 
 <?php include './includes/headeren.inc.php' ?>
 
-
-
 <div class="m-4">
     <?php include './includes/messages.php' ?>
     <div class="row">
@@ -44,6 +42,15 @@
                             <input type="date" class="form-control" id="date" name="date" aria-describedby="emailHelp">
                         </div>
                     </div>
+                </div>
+
+                <div class="form-group">
+                    <label for="exampleFormControlSelect1">Set On</label>
+                    <select class="form-control" name="setOn" id="setOn">
+                        <option selected value="Speeches">Speeches</option>
+                        <option value="Video Gallary">Video Gallary</option>
+                        <option value="Both">Both</option>
+                    </select>
                 </div>
 
                 <div class="form-group">

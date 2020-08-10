@@ -49,7 +49,7 @@
                          <li><a href="index.php">Biography</a></li>
                          <li><a href="index.php">Literary Life</a></li>
                          <li><a href="index.php">Political Life</a></li>
-                         <li><a href="index.php">News Updates</a></li>
+                         <li><a href="news.php">News Updates</a></li>
                      </ul>
                  </div>
              </div>
@@ -69,9 +69,9 @@
                  <div class="ftrMainLnkOneIn">
                     <h2 class="sabtHdng">Blog</h2>
                      <ul>
-                         <li><a href="videos.php">Speeches</a></li>
+                         <li><a href="videospeeches.php">Speeches</a></li>
                          <li><a href="speeches.php">Text Speeches</a></li>
-                         <li><a href="interview">Interviews</a></li>
+                         <li><a href="interview.php">Interviews</a></li>
                      </ul>
                  </div>
              </div>
@@ -288,7 +288,7 @@
                     <h2 class="sabtHdng">Blog</h2>
                      <ul>
                          <li><a href="#11thpage">Quotes</a></li>
-                         <li><a href="#11thpage">Speeches</a></li>
+                         <li><a href="videospeeches.php">Speeches</a></li>
                          <li><a href="#11thpage">Text Speeches</a></li>
                          <li><a href="#11thpage">Interviews</a></li>
                          <li><a href="#11thpage">Blog</a></li>
@@ -3552,9 +3552,9 @@ During Dr.Ramesh Pokhriyal Nishank's visit to Japan at the University of Daityo 
                         ';
                       }
                      ?>
-                         <li><a href="videos.php">Speeches</a></li>
+                         <li><a href="videospeeches.php">Speeches</a></li>
                          <li><a href="speeches.php">Text Speeches</a></li>
-                         <li><a href="interview">Interviews</a></li>
+                         <li><a href="interview.php">Interviews</a></li>
                         
                      </ul>
                  </div>

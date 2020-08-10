@@ -9,7 +9,7 @@ Video
 <div class="m-4">
     <?php
         include '../src/dbh.php';
-        $sql = "SELECT * FROM videos ORDER BY id DESC;";
+        $sql = "SELECT * FROM videos ORDER BY date(date)DESC;";
         $result = mysqli_query($conn, $sql);
         while ($row = mysqli_fetch_assoc($result)) {
             echo '

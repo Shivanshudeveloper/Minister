@@ -213,6 +213,7 @@ if (isset($_POST['videoGallaryBtn'])) {
     $title = mysqli_real_escape_string($conn, $_POST['title']);
     $date = mysqli_real_escape_string($conn, $_POST['date']);
     $link = mysqli_real_escape_string($conn, $_POST['link']);
+    $setOn = mysqli_real_escape_string($conn, $_POST['setOn']);
     
     // $file_name = $_FILES['image']['name'];
     // $file_size =$_FILES['image']['size'];
@@ -224,7 +225,7 @@ if (isset($_POST['videoGallaryBtn'])) {
 
     // $path = "videos/".time().$file_name;
     
-    $sql = "INSERT INTO `videos`(`title`, `date`, `video`, `link`) VALUES ('$title','$date','NIL', '$link');";    
+    $sql = "INSERT INTO `videos`(`title`, `date`, `video`, `seton`, `link`) VALUES ('$title','$date','NIL', '$setOn', '$link');";    
     mysqli_query($conn, $sql);
     header("Location: ../admin/videogallary.php?videos=success");
 }

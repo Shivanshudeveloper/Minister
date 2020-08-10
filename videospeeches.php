@@ -1,10 +1,9 @@
 <!doctype html>
 <html lang="en">
   <head>
-    <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-   <title>Photos</title>
+   <title>Speeches</title>
      <link rel="stylesheet" href="photo-include/css/bootstrap.min.css">
     <link rel="stylesheet" href="photo-include/css/magnific-popup.css">
     <link rel="stylesheet" href="photo-include/css/aos.css">
@@ -30,23 +29,21 @@
 <main class="main-content">
     <div class="container-fluid photos">
       <div class="row align-items-stretch">
+
       <?php
             include './src/dbh.php';
-            $sql = "SELECT * FROM photos ORDER BY date(date)DESC;";
+            $sql = "SELECT * FROM videos WHERE seton = 'Speeches' OR seton = 'Both' ORDER BY date(date)DESC;";
             $result = mysqli_query($conn, $sql);
             while ($row = mysqli_fetch_assoc($result)) {
                 echo '
                 <div class="col-6 col-md-6 col-lg-4" data-aos="fade-up">
-                  <a href="./src/'.$row['photo'].'" class="d-block photo-item" data-fancybox="gallery">
-                    <img src="./src/'.$row['photo'].'" alt="Image" class="img-fluid">
-                    <div class="photo-text-more">
-                      <span class="icon icon-search">'.$row['title'].'</span>
-                    </div>
+                  <iframe width="400" height="315" src="'.$row['link'].'" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                   </a>
                 </div>
                 ';                          
             }
         ?>
+        
         
 
         

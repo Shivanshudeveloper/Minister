@@ -69,9 +69,9 @@
                  <div class="ftrMainLnkOneIn">
                     <h2 class="sabtHdng">Blog</h2>
                      <ul>
-                         <li><a href="videos.php">Speeches</a></li>
+                         <li><a href="videospeeches.php">Speeches</a></li>
                          <li><a href="speeches.php">Text Speeches</a></li>
-                         <li><a href="interview">Interviews</a></li>
+                         <li><a href="interview.php">Interviews</a></li>
                      </ul>
                  </div>
              </div>
@@ -3552,9 +3552,9 @@ During Dr.Ramesh Pokhriyal Nishank's visit to Japan at the University of Daityo 
                         ';
                       }
                      ?>
-                         <li><a href="videos.php">Speeches</a></li>
+                         <li><a href="videospeeches.php">Speeches</a></li>
                          <li><a href="speeches.php">Text Speeches</a></li>
-                         <li><a href="interview">Interviews</a></li>
+                         <li><a href="interview.php">Interviews</a></li>
                         
                      </ul>
                  </div>
