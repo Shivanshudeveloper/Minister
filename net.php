@@ -37,7 +37,11 @@
     </div>
     <div class="col-md-4 col-xs-12 hdrRgtBtn">
       <div class="hdrRgtBtnIn">
-        <a href="index.php" class="langLnk">Back</a>
+      <a href="index.php" class="langLnk">Back</a>
+        <a href="speeches.php" class="langLnk">Speeches</a>
+        <a href="videos.php" class="langLnk">Video</a>
+        <a href="videospeeches.php" class="langLnk">Video Speeches</a>
+        <a href="index.php" class="langLnk">Home</a>
       </div>
       </div>
     </div>

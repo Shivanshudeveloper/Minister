@@ -121,13 +121,13 @@
             <div class="mantriJiNameMobile"><h2>Ramesh Pokhriyal ‘Nishank’<!--  <span>Ministry of Human Resource Development</span> --></h2></div>
         <div class="topOpenNavDiv">
         <ul>
-         <li><a href="#4thpage">About</a></li>
-         <li><a href="#7thpage">News</a></li>
-         <li><a href="#6thpage">Awards</a></li>
-         <li><a href="#3rdPage">Governance</a></li>
-         <li><a href="javascript:void(0)">Blog</a></li>
-         <li><a href="#5thpage">Poet & Author</a></li>
-         <li><a href="#8thpage">Connect</a></li>
+         <li><a href="#4thpage">परिचय</a></li>
+         <li><a href="#7thpage">समाचार</a></li>
+         <li><a href="#6thpage">पुरस्कार</a></li>
+         <li><a href="#3rdPage">शासन</a></li>
+         <li><a href="javascript:void(0)">ब्लॉग</a></li>
+         <li><a href="#5thpage">कवि और लेखक</a></li>
+         <li><a href="#8thpage">जुडिये</a></li>
          <li><a href="net.php">NEP</a></li>
          
      </ul>
@@ -322,13 +322,13 @@
                 <div class="topOpenNavDiv">
        <ul>
          
-         <li><a href="#4thpage">About</a></li>
-         <li><a href="#7thpage">News</a></li>
-         <li><a href="#6thpage">Awards</a></li>
-         <li><a href="#3rdPage">Governance</a></li>
-         <li><a href="javascript:void(0)">Blog</a></li>
-         <li><a href="#5thpage">Poet & Author</a></li>
-         <li><a href="#8thpage">Connect</a></li>
+       <li><a href="#4thpage">परिचय</a></li>
+         <li><a href="#7thpage">समाचार</a></li>
+         <li><a href="#6thpage">पुरस्कार</a></li>
+         <li><a href="#3rdPage">शासन</a></li>
+         <li><a href="javascript:void(0)">ब्लॉग</a></li>
+         <li><a href="#5thpage">कवि और लेखक</a></li>
+         <li><a href="#8thpage">जुडिये</a></li>
          <li><a href="net.php">NEP</a></li>
      </ul>
    </div>
@@ -622,13 +622,13 @@
         <div class="topOpenNavDiv">
         <ul>
          
-         <li><a href="#4thpage">About</a></li>
-         <li><a href="#7thpage">News</a></li>
-         <li><a href="#6thpage">Awards</a></li>
-         <li><a href="#3rdPage">Governance</a></li>
-         <li><a href="javascript:void(0)">Blog</a></li>
-         <li><a href="#5thpage">Poet & Author</a></li>
-         <li><a href="#8thpage">Connect</a></li>
+        <li><a href="#4thpage">परिचय</a></li>
+         <li><a href="#7thpage">समाचार</a></li>
+         <li><a href="#6thpage">पुरस्कार</a></li>
+         <li><a href="#3rdPage">शासन</a></li>
+         <li><a href="javascript:void(0)">ब्लॉग</a></li>
+         <li><a href="#5thpage">कवि और लेखक</a></li>
+         <li><a href="#8thpage">जुडिये</a></li>
          <li><a href="net.php">NEP</a></li>
         
      </ul>
@@ -900,13 +900,13 @@
         <div class="topOpenNavDiv">
         <ul>
          
-         <li><a href="#4thpage">About</a></li>
-         <li><a href="#7thpage">News</a></li>
-         <li><a href="#6thpage">Awards</a></li>
-         <li><a href="#3rdPage">Governance</a></li>
-         <li><a href="javascript:void(0)">Blog</a></li>
-         <li><a href="#5thpage">Poet & Author</a></li>
-         <li><a href="#8thpage">Connect</a></li>
+        <li><a href="#4thpage">परिचय</a></li>
+         <li><a href="#7thpage">समाचार</a></li>
+         <li><a href="#6thpage">पुरस्कार</a></li>
+         <li><a href="#3rdPage">शासन</a></li>
+         <li><a href="javascript:void(0)">ब्लॉग</a></li>
+         <li><a href="#5thpage">कवि और लेखक</a></li>
+         <li><a href="#8thpage">जुडिये</a></li>
          <li><a href="net.php">NEP</a></li>
          
      </ul>

@@ -12,6 +12,7 @@
     <link rel="stylesheet" type="text/css" href="css/venobox.min.css">
     <link rel="stylesheet" type="text/css" href="css/owl.carousel.min.css">
     <link rel="stylesheet" type="text/css" href="css/style.css">
+    
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
@@ -36,7 +37,6 @@
   <button class="hamburger">&#9776;</button>
   <button class="cross">&#735;</button>
     </span>
-  <span class="langLnk"><a href="indexhi.php">Hindi</a></span>
     <div class="menu">
            <div class="sectionThirteen headerMenuTop">
      <div class="container">
@@ -118,18 +118,19 @@
 
      <div class="section sectionOneNew " id="section0">
     <div class="single_slider  d-flex align-items-center">
+      <div class="headerNewDiv">
             <div class="mantriJiNameMobile"><h2>Ramesh Pokhriyal ‘Nishank’<!--  <span>Ministry of Human Resource Development</span> --></h2></div>
         <div class="topOpenNavDiv">
-        <ul>
+        <ul class="translation-links">
          <li><a href="#4thpage">About</a></li>
          <li><a href="#7thpage">News</a></li>
          <li><a href="#6thpage">Awards</a></li>
          <li><a href="#3rdPage">Governance</a></li>
-         <li><a href="javascript:void(0)">Blog</a></li>
+         <!-- <li><a href="javascript:void(0)">Blog</a></li> -->
          <li><a href="#5thpage">Poet & Author</a></li>
          <li><a href="#8thpage">Connect</a></li>
          <li><a href="net.php">NEP</a></li>
-         
+         <li><a href="#" class="hindi" data-lang="Hindi">Hindi</a></li>
      </ul>
    </div>
    <div class="container centerTextDiv">
@@ -141,16 +142,24 @@
                     </div>
                 </div>
             </div>
-        
+        </div>
         </div>
     <div class="headerSliderDiv carDesktop">
     <div class="mantriJiNameMobile"><h2>Ramesh Pokhriyal ‘Nishank’ <span>Ministry of Human Resource Development</span></h2></div>
 <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
    <!-- Wrapper for slides -->
   <div class="carousel-inner" role="listbox">
-    <div class="item active">
+  <div class="item active">
+      <img src="images/1597545711SHE.jpg">
+    </div>  
+    <div class="item">
+      <img src="images/1597546725MYBOOK.jpg">
+    </div>
+  <div class="item">
       <img src="images/technology-banner-new.jpg">
     </div>
+    
+    
     <div class="item">
         <img src="images/bannerTwoImg.jpg">
          <div class="sliderCntAreaDiv secondSlider">
@@ -173,6 +182,14 @@
 </div>
           </div>
     </div>
+    <div class="item">
+      <img src="images/1597544154HARIDWAR.jpg">
+    </div>
+    <div class="item">
+      <img src="images/1597544369JANMDIN.jpg">
+    </div>
+    
+    
   </div>
 
   <!-- Controls -->
@@ -249,7 +266,6 @@
   <button class="hamburger">&#9776;</button>
   <button class="cross">&#735;</button>
     </span>
-  <span class="langLnk"><a href="indexhi.php">Hindi</a></span>
      <div class="menu">
            <div class="sectionThirteen headerMenuTop">
      <div class="container">
@@ -326,7 +342,7 @@
          <li><a href="#7thpage">News</a></li>
          <li><a href="#6thpage">Awards</a></li>
          <li><a href="#3rdPage">Governance</a></li>
-         <li><a href="javascript:void(0)">Blog</a></li>
+         <!-- <li><a href="javascript:void(0)">Blog</a></li> -->
          <li><a href="#5thpage">Poet & Author</a></li>
          <li><a href="#8thpage">Connect</a></li>
          <li><a href="net.php">NEP</a></li>
@@ -337,7 +353,7 @@
              <h2 class="mainHdng">Political Life</h2>
              <div class="bottomMinCntIn hideMinDiv demoScroll sc4" id="hrdMin" style="display: inline-block;">
                 <div class='h600'>
-                <h2 class="mainHdng"> <span>Minister of Human Resource Development</span></h2>
+                <h2 class="mainHdng"> <span>Ministry of Education</span></h2>
                  <p>
                   <?php
                     include './src/dbh.php';
@@ -405,7 +421,7 @@
           <!--*********bottom tab***********-->
     <div class="minBottomTabDiv">
         <ul>
-            <li rel="hrdMin" class="activeMinDiv">Union HRD Minister</li>
+            <li rel="hrdMin" class="activeMinDiv">Ministry of Education</li>
             <li rel="memberOfPar">Member of Parliament</li>
             <li rel="cheifMin">Former Chief Minister</li>
             <li rel="minId">Former State Minister</li>
@@ -551,7 +567,6 @@
   <button class="hamburger">&#9776;</button>
   <button class="cross">&#735;</button>
     </span>
-  <span class="langLnk"><a href="indexhi.php">Hindi</a></span>
      <div class="menu">
            <div class="sectionThirteen headerMenuTop">
      <div class="container">
@@ -626,7 +641,7 @@
          <li><a href="#7thpage">News</a></li>
          <li><a href="#6thpage">Awards</a></li>
          <li><a href="#3rdPage">Governance</a></li>
-         <li><a href="javascript:void(0)">Blog</a></li>
+         <!-- <li><a href="javascript:void(0)">Blog</a></li> -->
          <li><a href="#5thpage">Poet & Author</a></li>
          <li><a href="#8thpage">Connect</a></li>
          <li><a href="net.php">NEP</a></li>
@@ -829,7 +844,7 @@
   <button class="hamburger">&#9776;</button>
   <button class="cross">&#735;</button>
     </span>
-  <span class="langLnk"><a href="indexhi.php">Hindi</a></span>
+  <span class="langLnk"><div id="google_translate_element"></div></span>
      <div class="menu">
            <div class="sectionThirteen headerMenuTop">
      <div class="container">
@@ -904,7 +919,7 @@
          <li><a href="#7thpage">News</a></li>
          <li><a href="#6thpage">Awards</a></li>
          <li><a href="#3rdPage">Governance</a></li>
-         <li><a href="javascript:void(0)">Blog</a></li>
+         <!-- <li><a href="javascript:void(0)">Blog</a></li> -->
          <li><a href="#5thpage">Poet & Author</a></li>
          <li><a href="#8thpage">Connect</a></li>
          <li><a href="net.php">NEP</a></li>
@@ -3505,10 +3520,10 @@ During Dr.Ramesh Pokhriyal Nishank's visit to Japan at the University of Daityo 
                         ';
                       }
                      ?>
-                         <li><a href="index.php">Biography</a></li>
-                         <li><a href="index.php">Literary Life</a></li>
-                         <li><a href="index.php">Political Life</a></li>
-                         <li><a href="index.php">News Updates</a></li>
+                         <li><a href="#4thpage">Biography</a></li>
+                         <li><a href="#5thpage">Literary Life</a></li>
+                         <li><a href="#3rdPage">Political Life</a></li>
+                         <li><a href="#7thpage">News Updates</a></li>
                      </ul>
                  </div>
              </div>
@@ -3597,6 +3612,28 @@ document.write('<script type="text/javascript" src="js/fullpage.js"><\/script>')
 }
 </script>
 <!-- <script type="text/javascript" src="js/fullpage.js"></script> -->
+
+<script type="text/javascript">
+function googleTranslateElementInit() {
+            new google.translate.TranslateElement({pageLanguage: 'en', includedLanguages: 'hi', layout: google.translate.TranslateElement.InlineLayout.SIMPLE, autoDisplay: false}, 'google_translate_element');
+        }
+</script>
+
+<script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+
+
+<script type="text/javascript">
+    $('.translation-links a').click(function() {
+      var lang = $(this).data('lang');
+      var $frame = $('.goog-te-menu-frame:first');
+      if (!$frame.size()) {
+        alert("Error: Could not find Google translate frame.");
+        return false;
+      }
+      $frame.contents().find('.goog-te-menu2-item span.text:contains('+lang+')').get(0).click();
+      return false;
+    });
+</script>
 
 <script type="text/javascript">
     var myFullpage = new fullpage('#fullpage', {

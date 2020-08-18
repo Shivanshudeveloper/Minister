@@ -17,12 +17,25 @@
     <!-- Image and text -->
     <nav class="photoNavDiv">
         <div class="container-fluid">
-            <a class="navbar-brand" href="#">
-                Dr. Ramesh Pokhriyal 'Nishank'
-            </a>
-            <span class="navbar-text">
-                <a href="index.php">Back</a>
-            </span>
+
+          <div class="headerNewDiv">
+            <div class="mantriJiNameMobile"><h2>Ramesh Pokhriyal ‘Nishank’<!--  <span>Ministry of Human Resource Development</span> --></h2></div>
+        <div class="topOpenNavDiv">
+          <span id="burgermenuphoto">
+  <button class="hamburger">&#9776;</button>
+<!--   <button class="cross">&#735;</button> -->
+    </span>
+        <ul class="menuPhoto">
+         <li><a href="index.php">Home</a></li>
+         <li><a href="videospeeches.php">Video Speeches</a></li>
+         <li><a href="videos.php">Video</a></li>
+         <li><a href="speeches.php">Speeches</a></li>
+         <li><a href="photos.php">Photos</a></li>
+        </ul>
+   </div>
+        </div>
+
+           
         </div>
         
     </nav>
@@ -60,5 +73,10 @@
  <script src="photo-include/js/jquery.fancybox.min.js"></script>
   <script src="photo-include/js/jquery.scrollbar.js"></script>
   <script src="photo-include/js/main.js"></script>
+<script type="text/javascript">
+  $('#burgermenuphoto').click(function(){
+    $('.menuPhoto').slideToggle();
+  })
+</script>
   </body>
 </html>

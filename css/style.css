@@ -451,10 +451,10 @@ header{width: 100%; position: absolute; top: 18px; left: 0; z-index: 999}
 .sliderTransDiv .demoScroll{overflow-y: scroll; overflow-x: hidden; height: 456px}
 #section4 .sliderTransDiv{background:rgba(49,51,100,0.95);}
 .sliderTransDiv p{font-size: 16px}
-.hamburger{ background:none; position:absolute; top:20px; right:30px; line-height:45px;
+.hamburger{ background:none; position:absolute; top:10px; right:30px; line-height:45px;
   padding:5px 15px 0px 15px; color:#fff; border:0; font-size:1.4em; font-weight:bold;
   cursor:pointer; outline:none; z-index:10000000000000;-webkit-transition:all 0.5s; -moz-transition:all 0.5s; transition: all 0.5s}
-.cross{ background:none; position:absolute; top:15px; right:30px; padding:7px 15px 0px 15px; color:#999; border:0; font-size:3em; line-height:65px; font-weight:bold;
+.cross{ background:none; position:absolute; top:5px; right:34px; padding:7px 15px 0px 15px; color:#999; border:0; font-size:3em; line-height:65px; font-weight:bold;
   cursor:pointer; outline:none; z-index:10000000000000;-webkit-transition:all 0.5s; -moz-transition:all 0.5s; transition: all 0.5s}
 .menu{z-index:1000000; width:100%; background:#f1f1f1;  position:fixed;}
 /*.menu ul {margin: 0; padding: 0; list-style-type: none; list-style-image: none;}
@@ -497,10 +497,12 @@ header{width: 100%; position: absolute; top: 18px; left: 0; z-index: 999}
 .topLnkDivNew.poliTabDiv{text-align: right; padding-right: 52px}
 .topLnkDivNew.poliTabDiv ul li.activeP{border-bottom: none;}
 .topLnkDivNew.poliTabDiv ul li.activeP:before{display: none;}
-.topOpenNavDiv{width: 53%; position: absolute; right: 60px; top: 34px; z-index: 2}
+.topOpenNavDiv{width: 58%; position: absolute; right: 60px; top: 24px; z-index: 99}
 .topOpenNavDiv.slideTwo{right: auto; left: 60px; top: 5px}
 .topOpenNavDiv ul li{display: inline-block; padding: 0 10px;}
 .topOpenNavDiv ul li a{color: #fff; text-decoration: none; font-weight: 400; font-size: 19px}
+.topOpenNavDiv ul li a.hindi{background: #fff; color: #313364;padding: 0 7px 3px;
+    -webkit-border-radius: 6px; -moz-border-radius:6px; border-radius:6px;}
 .sectionOneNewIn{width: 100%; float: left; background:#fc264d}
 :focus {outline: -webkit-focus-ring-color auto 0px;}
 .sectionOneNewIn ul{padding: 0; margin: 0; list-style-type: none;}
@@ -605,6 +607,7 @@ background: linear-gradient(90deg, rgba(2, 44, 172) 0%, rgba(2, 44, 172) 100%); 
 .menuTpFrCnt h3{color: #1e1e1e!important}
 .topOpenNavDiv.slideTwlve ul li a{color: #333}
 #scrollDownId{display: none;}
+.headerNewDiv{width: 100%; float: left; background: rgba(49 51 100 / 87%); position: absolute; z-index: 9999; height: 75px}
 
 @media (min-width: 992px) and (max-width: 1200px) {
   .singleSliderIn{width: 700px;}
@@ -621,7 +624,7 @@ background: linear-gradient(90deg, rgba(2, 44, 172) 0%, rgba(2, 44, 172) 100%); 
 
   .singleSliderIn{width: 588px;}
   .singleSliderIn img{width: 100%}
-  .centerTextDiv{width: 38%; bottom: auto;}
+  .centerTextDiv{width: 34%; bottom: auto;}
   .centerTextDiv{padding-left: 0px;top:15px; left: 40px; right: auto;}
   .slider_area .single_slider .slider_text h3{font-size: 35px; text-align: left; padding: 0; margin: 0}
   .leftSideNav ul li img{width: 46%}
@@ -669,7 +672,7 @@ background: linear-gradient(90deg, rgba(2, 44, 172) 0%, rgba(2, 44, 172) 100%); 
 .menuSocialDiv ul li a:hover{text-decoration: none; transition: all 0.5s; background: -webkit-linear-gradient(#685cfc, #d065f0);
   -webkit-background-clip: text;  -webkit-text-fill-color: transparent; }
   .bottomMinCntDiv .h600{height: 350px; overflow-y: scroll;}
-.langLnk{background: rgba(51,49,100,1); -webkit-border-radius:4px; -moz-border-radius:4px; border-radius: 4px;  display: inline-block; padding: 4px 10px; position: absolute; top: 36px; right: 75px; z-index: 999; font-size: 15px }
+.langLnk{background: rgba(51,49,100,1); -webkit-border-radius:4px; -moz-border-radius:4px; border-radius: 4px;  display: inline-block; padding: 4px 10px; position: absolute; top: 23px; right: 75px; z-index: 999; font-size: 15px }
 .langLnk a{color: #fff!important}
 .headerSliderDiv {width: 100%; float: left;}
  .headerSliderDiv .glyphicon-chevron-left:before{content: ''; width: 54px; height: 54px; background: url(../images/arrowLft.jpg) no-repeat; display: inline-block;}
@@ -724,7 +727,8 @@ background: linear-gradient(90deg, rgba(2, 44, 172) 0%, rgba(2, 44, 172) 100%); 
   .innerPag h3{font-size: 18px}
   .hdrRgtBtnIn .langLnk{padding: 2px 10px; font-size: 17px}
   .hdrRgtBtnIn{position: relative;top: -25px;right: -55px;}
-  .single_slider{position: absolute; top: 0; left: 0}
+  .single_slider{position: absolute; top: 0; left: 0; width: 100%}
+  .headerNewDiv{background: transparent;}
   .sliderCntAreaDiv{width: 100%;position: relative; bottom: 160px;right: 0px; text-align: center;}
   .carDesktop{display: none;}
   .carMobile{display: inline-block;}
@@ -736,7 +740,7 @@ background: linear-gradient(90deg, rgba(2, 44, 172) 0%, rgba(2, 44, 172) 100%); 
   .hamburger{padding: 5px 10px 5px 10px;line-height: 32px; top: 16px}
   .langLnk{top: 19px;right: 58px;}
   .listOneIn{height: auto;}
-  .hamburger{right: 14px;position: fixed; z-index: 99}
+  .hamburger{right: 14px;position: fixed; z-index: 99999}
   .hamburger{background: #1b1a1a; top: 16px}
   .cross{background: none;
 position: fixed;
@@ -829,6 +833,8 @@ transition: all 0.5s;}
 }
 
 @media only screen and (min-width: 768px) and (max-width: 1024px){
+  .single_slider{position: absolute; top: 0; left: 0; width: 100%}
+
   #section2 .langLnk, #section3 .langLnk, #section4 .langLnk, #section5 .langLnk, #section6 .langLnk, #section7 .langLnk, #section8 .langLnk, #section9 .langLnk, #section10 .langLnk{display: none;}
   .hdrRgtBtnIn{position: relative;top: -36px;right: -55px;}
   .langLnk{top: 19px}
@@ -848,7 +854,7 @@ transition: all 0.5s;}
     text-align: left;
     padding-left: 25px;
 }
-  .hamburger{right: 14px;position: fixed; z-index: 99}
+  .hamburger{right: 14px;position: fixed; z-index: 99999}
   .hamburger{background: #1b1a1a; top: 5px}
   .cross{background: none;
 position: fixed;

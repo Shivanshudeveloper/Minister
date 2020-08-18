@@ -20,7 +20,11 @@
                 Dr. Ramesh Pokhriyal 'Nishank'
             </a>
             <span class="navbar-text">
-                <a href="index.php">Back</a>
+            <a href="index.php" class="langLnk">Back</a>
+        <a href="speeches.php" class="langLnk">Speeches</a>
+        <a href="videos.php" class="langLnk">Video</a>
+        <a href="videospeeches.php" class="langLnk">Video Speeches</a>
+        <a href="index.php" class="langLnk">Home</a>
             </span>
         </div>
         
