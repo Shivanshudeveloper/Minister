@@ -56,7 +56,7 @@
                 echo '
                 <div class="col-md-3 col-sm-6 col-xs-12 bookDv bkNewDiv" style="margin-bottom: 25px">
                   <div class="booksDvIn" style="height: 480px; background: #fff; border-radius: 6px; padding: 10px">
-                    <a href="'.$row['link'].'">
+                    <a href="./book-old.php?id='.$row['id'].'">
                     <div class="_bksImg"><img width="100%" height="400px" src="./src/'.$row['file'].'"></div>
                     <div class="_bksCntDiv">
                       <h2>'.$row['title'].'</h2>
